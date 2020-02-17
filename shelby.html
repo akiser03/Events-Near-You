@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Events R Us</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+    </head>
+
+    <body>
+    
+        <nav class="navbar navbar-sticky-top navbar-expand-md navbar-light bg-light sticky-top">
+        <h1 class="p-1">Events Near You!</h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="shelby.html">Shelby<span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="gastonia.html">Gastonia</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="charlotte.html">Charlotte</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="greenville.html">Greenville</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+        
+        <div class="row ml-2 custom-control custom-switch">
+            <input type="checkbox" class="col-sm-1 custom-control-input" id="darkSwitch">
+            <label class="col-sm-2 custom-control-label" for="darkSwitch">Dark Mode</label>
+        </div>
+        
+        
+        <div class="mt-5" id="main">
+        
+            <div class="p-4" id="about">
+            
+                <h1 class="bg-light jumbotron text-center">Shelby North Carolina Events</h1>
+                
+                <div class="border border-dark p-2 mt-3">
+                    <image id="thumbnail" alt="Snowman" src="LittleBit.jpg"></image>
+                    <h3><a href="https://www.facebook.com/events/2793151197373181/">Cute snowman paint and sip!</a></h3>
+                    <div id="info">
+                        <p class="text-center p-2 mr-1" id="date">Dec. 10th</p>
+                        <div id="eventinfo">
+                            <p>Hosted by Little Bit Studio</p>
+                            <p>Tuesday, December 10th 2019 at 6 PM – 8 PM</p>
+                            <p>Little Bit Studio</p>
+                            <p>234 S Lafayette st, Shelby, North Carolina 28150</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="border border-dark p-2 mt-3">
+                    <image id="thumbnail" alt="Moonlight Forest" src="MoonlightForest.jpg"></image>
+                    <h3><a href="https://www.facebook.com/events/2194257640880212/">Paint & Sip - "Moonlight Forest"</a></h3>
+                    <div id="info">
+                        <p class="text-center p-2 mr-1" id="date">Jan. 14th</p>
+                        <div id="eventinfo">
+                            <p>Hosted by Cleveland County Arts Council</p>
+                            <p>Tuesday, January 14, 2020 at 6 PM – 8 PM</p>
+                            <p>Cleveland County Arts Council</p>
+                            <p>111 S Washington St, Shelby, North Carolina 28150</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="border border-dark p-2 mt-3">
+                    <image id="thumbnail" alt="Perlino" src="Perlino.jpg"></image>
+                    <h3><a href="https://www.perlinoband.com/schedule.html">Perlino @ Dragonfly Wine Market</a></h3>
+                    <div id="info">
+                        <p class="text-center p-2 mr-1" id="date">Dec. 27th</p>
+                        <div id="eventinfo">
+                            <p>Hosted by Perlino</p>
+                            <p>Friday, December 27 2019 at 6 PM – 9 PM</p>
+                            <p>Dragonfly Wine Market</p>
+                            <p>101 W Warren St, Shelby, North Carolina 28150</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="border border-dark p-2 mt-3">
+                    <image id="thumbnail" alt="casino" src="NewgrassCasino.jpg"></image>
+                    <h3><a href="https://www.facebook.com/events/410186059613224/">The Big Chill Casino Night</a></h3>
+                    <div id="info">
+                        <p class="text-center p-2 mr-1" id="date">Jan. 25th</p>
+                        <div id="eventinfo">
+                            <p>Hosted by Cleveland County Arts Council and Newgrass Brewing Company</p>
+                            <p>Saturday, January 25 2020 at 7 PM – 11 PM</p>
+                            <p>Newgrass Brewing Company</p>
+                            <p>213 S Lafayette St, Shelby, NC 28150</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>        
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
